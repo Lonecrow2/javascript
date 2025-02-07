@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-        var nome = window.prompt('Qual o seu nome?')
-        document.write(`Seu nome tem ${nome.length} letras <br>`)
-        document.write(`Seu nome em letras maiusculas é ${nome.toUpperCase()} <br>`)
-        document.write(`Seu nome em minusculas é ${nome.toLowerCase()}`)
+        // var nome = window.prompt('Qual o seu nome?')
+        // document.write(`Seu nome tem ${nome.length} letras <br>`)
+        // document.write(`Seu nome em letras maiusculas é ${nome.toUpperCase()} <br>`)
+        // document.write(`Seu nome em minusculas é ${nome.toLowerCase()}`)
+
+
+        let name = window.prompt('Digite seu nome!');
+        let n1 = Number(window.prompt(`Olá ${name}, vamos fazer o seu cálculo de adição. Coloque o primeiro número da conta. Lembre-se que para números não inteiros use o (.) para colocar seu número, ex: 556.35`));
+        let n2 = Number(window.prompt(`Por gentileza ${name}, adicione o próximo número.`));
+        let resultado = n1 + n2;
+    
+        let resultado_formatado = resultado.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+        window.alert(`O resultado da sua conta é ${resultado_formatado}`);
+
     </script>
 </body>
+
 </html>
