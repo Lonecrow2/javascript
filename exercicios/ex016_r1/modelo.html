@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+        <div>
+            <p class="margin-p">
+                <label for="txtanoid">Ano de nascimento:</label>
+                <input type="number" name="txtano" id="txtanoid" placeholder="1997" min="0">
+            </p>
+            <p class="margin-p">
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="fem" id="fem1">Feminino</label>
+                <input type="radio" name="radsex" id="fem">
+            </p>
+            <p class="margin-p">
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+
+        <div>
+            <p id="res">Prença os dados acima para ver o resultado!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;Ernesto Rampanelli Neto</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
