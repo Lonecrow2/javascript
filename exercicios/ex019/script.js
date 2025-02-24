@@ -14,13 +14,25 @@ function contar() {
     //     resultado.innerHTML += `${i} `;
     // }
 
-    if (iniN > fimN || passoN <= 0) {
+    if(passoN <= 0){
+        passoN = 1
+    }
+
+    if (iniN == 0 || fimN == 0 || passoN == 0) {
         resultado.innerHTML = 'Algum valor não está correto, revise as caixas e refaça o teste';
         return;
     }
 
-    while (iniN <= fimN) {
-        resultado.innerHTML += `${iniN} \u{1F449}`
-        iniN += passoN
+    if (iniN < fimN) {
+        while (iniN <= fimN) {
+            resultado.innerHTML += `${iniN} \u{1F449}`
+            iniN += passoN
+        }
+    } else {
+        while (iniN >= fimN) {
+            resultado.innerHTML += `${iniN} \u{1F449}`
+            iniN -= passoN
+        }
     }
+    resultado.innerHTML += `\u{1F3C1}`
 }
