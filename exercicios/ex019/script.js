@@ -20,8 +20,7 @@ function contar() {
     }
 
     while (iniN <= fimN) {
-        resultado.innerHTML += `${iniN} `
+        resultado.innerHTML += `${iniN} \u{1F449}`
         iniN += passoN
     }
-
 }
