@@ -1,0 +1,33 @@
+@charset "UTF8";
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 100vh;
+    background-color: #242424;
+}
+
+main{
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+section > div{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    overflow-y: auto;
+
+    background-color: #313131;
+}
