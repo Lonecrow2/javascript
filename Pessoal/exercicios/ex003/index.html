@@ -10,14 +10,14 @@
     <main>
         <section>
             <h1>Lista de tarefas</h1>
-            <input type="text" name="input_t" id="input_t_id" placeholder="Digite sua tarefa" autocomplete="off">
-            <button onclick="gerar_t()">Criar</button>
+            <input type="text" name="input_t" id="input_t_id" placeholder="Digite sua tarefa" autocomplete="off" >
+            <button onclick="gerar_t()" id="criar">Criar</button>
         </section>
         <section>
             <div id="lista_tarefas">
                 <h2>Tarefas</h2>
             </div>
-            <button onclick="limpar()">Limpar</button>
+            <button onclick="limpar()" id="limpar">Limpar</button>
         </section>
     </main>
     <script src="script.js"></script>
