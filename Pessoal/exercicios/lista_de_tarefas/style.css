@@ -5,7 +5,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 98vw;
-    height: 100vh;
+    height: 98vh;
     background-image: linear-gradient(45deg, #969696,#5127b3,#969696);
 }
 
@@ -14,76 +14,78 @@ main{
     flex-flow: nowrap column;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #9d76fa;
-    min-width: 300px;
-    height: 400px;
+    background-color: #292929;
+    min-width: 100vw;
+    height: 98vh;
     padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 4px #240470;
 }
 
 h1{ 
     margin-top: 0px;
     color: #ffffff;
-    background-color: #240470;
+    text-shadow: 2px 2px 2px #000000;
+    background-color: #e20000;;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-h2{
-    color: #ffffff;
-    background-color: #240470;
-    margin: 0px;
-    border-radius: 10px;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
 section > div{
     margin: 10px;
     padding: 10px;
-    min-width: 200px;
-    border-radius: 10px;
+    width: 80vw;
+    border-radius: 20px;
     height: 200px;
     overflow-y: auto;
-    box-shadow: inset 0px 0px 5px 2px #240470;
-    background-image: linear-gradient(45deg, #966bfa, #5127b3 ,#966bfa);
+    box-shadow: inset 0px 0px 5px 2px #000000;
+    background-image: linear-gradient(45deg, #fa6b6b, #b32727, #fa6b6b);
+    max-width: 300px; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    white-space: normal; 
 }
 
+
+
 #lonecrow{
-    color: #14004131;
+    text-align: center;
     margin: 0px;
+    color: #ffffff71;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 .parag_t{
-    
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    background-color: #3500b1;
+    background-color: #a00000;;
     padding: 4px;
     border-radius: 5px;
-    color: #e4d8ff;
+    color: #ffffff;
     text-shadow: 1px 1px 2px black;
     margin: 2px;
 }
 
 #criar{
     border-radius: 5px;
-    color: #bea2ff;
-    background-color: #240470;
+    color: #f7f3ff;
+    background-color: #e20000;
+    border: solid transparent;
 }
 
 #limpar{
     border-radius: 5px;
-    color: #bea2ff;
-    background-color: #240470;
+    color: #f7f3ff;
+    background-color: #e20000;
+    border: solid transparent;
 }
 
 #input_t_id{
-    color: #130041;
-    background-color: #bea2ff;
+    border-radius: 10px;
+    color: #000000;
+    border: solid transparent;
+    background-color: #ffc2c2;
 }
